@@ -5,20 +5,20 @@ pipeline {
         stage('Build') {
             steps {
                 // Example: Running a Maven build
-                echo 'build'
+                
             }
         }
         stage('Test') {
             steps {
                 // Example: Running unit tests
-        echo 'test'
+        // echo 'test'
             }
         }
         stage('Deploy') {
             steps {
                 // Example: Deploying artifacts
-                echo 'deploy'
             }
         }
-    }   
+    } 
+    echo'success'
 }
