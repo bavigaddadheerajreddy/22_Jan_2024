@@ -1,0 +1,15 @@
+
+pipeline
+{
+    add{}
+pipeline{
+    add{
+        
+    }
+    stage{
+
+    }
+}
+
+hi, this is staging
+}
