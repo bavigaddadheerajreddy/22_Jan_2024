@@ -19,6 +19,7 @@ pipeline {
                 // Example: Deploying artifacts
             }
         }
+        echo'success'
     } 
-    echo'success'
+    
 }
